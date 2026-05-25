@@ -1,6 +1,6 @@
-# Crab: Data Stack as a Service (Modular Infrastructure)
+# Data Stack as a Service (Modular Infrastructure)
 
-Crab is a modular infrastructure-as-code (IaC) project designed to deploy a complete data stack (Ingestion, Warehouse, Transformation, Orchestration, BI) to **AWS**, **GCP**, or **Kubernetes**.
+A infrastructure-as-code (IaC) project designed to deploy a complete data stack (Ingestion, Warehouse, Transformation, Orchestration, BI) to **AWS**, **GCP**, or **Kubernetes**.
 
 The project is structured into three completely independent platforms, each utilizing cloud-native services for maximum scalability and maintainability.
 
