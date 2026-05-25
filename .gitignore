@@ -1,0 +1,13 @@
+
+/tmp/
+.vscode
+.python-version
+.terraform
+*.tfstate*
+*.lock.hcl
+*.tfvars
+key*.json
+zipped*
+secret.tfvars
+*/.dlt/secrets.toml
+*/.dbt/dbt_profiles.yml

@@ -1,0 +1,4 @@
+# dlt requirements
+dlt[postgres]
+requests
+python-dotenv

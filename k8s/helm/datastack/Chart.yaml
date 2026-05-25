@@ -1,0 +1,23 @@
+apiVersion: v2
+name: datastack
+description: A Helm chart for a modular datastack (Postgres, Clickhouse, Airbyte, Airflow, Metabase)
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
+
+dependencies:
+  - name: postgresql
+    version: 15.5.24
+    repository: https://charts.bitnami.com/bitnami
+  - name: clickhouse
+    version: 4.1.1
+    repository: https://charts.bitnami.com/bitnami
+  - name: airbyte
+    version: 0.50.45
+    repository: https://airbytehq.github.io/helm-charts
+  - name: airflow
+    version: 1.11.0
+    repository: https://airflow.apache.org
+  - name: metabase
+    version: 1.2.0
+    repository: https://pmint93.github.io/helm-charts

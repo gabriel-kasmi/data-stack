@@ -1,0 +1,43 @@
+# Global configurations
+global:
+  storageClass: "standard"
+
+# Configuration for Metabase's Postgres
+postgres:
+  auth:
+    database: metabase
+    username: metabase
+    password: metabase_password
+  primary:
+    persistence:
+      size: 8Gi
+
+# Clickhouse configuration
+clickhouse:
+  auth:
+    username: my_user
+    password: My_Password_0
+  persistence:
+    size: 20Gi
+
+# Airbyte configuration
+airbyte:
+  webapp:
+    service:
+      type: NodePort
+
+# Airflow configuration
+airflow:
+  executor: "SequentialExecutor"
+  postgresql:
+    enabled: true
+
+# Metabase configuration
+metabase:
+  database:
+    type: postgres
+    host: datastack-postgres-metabase
+    port: 5432
+    name: metabase
+    user: metabase
+    password: metabase_password

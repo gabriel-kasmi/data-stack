@@ -1,0 +1,4 @@
+# dlt requirements
+dlt[redshift,postgres]
+requests
+python-dotenv

@@ -1,0 +1,23 @@
+dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: redshift
+      host: 
+      user: my_user
+      password: 
+      dbname: my_database
+      schema: dbt_dev
+      port: 5439
+      retries: 1
+      threads: 4
+    prod:
+      type: redshift
+      host: 
+      user: my_user
+      password: 
+      dbname: my_database
+      schema: dbt_prod
+      port: 5439
+      retries: 1
+      threads: 8

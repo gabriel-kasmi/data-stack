@@ -1,0 +1,4 @@
+# dlt requirements
+dlt[bigquery,postgres,gs]
+requests
+python-dotenv
